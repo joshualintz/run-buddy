@@ -15,6 +15,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+
 /* HEADER / NAV BAR STYLES START */
 
 header {
@@ -216,8 +217,8 @@ section {
 
 .radio-wrapper label::after {
   content: "";
-  width: 20px;
   height: 20px;
+  width: 20px;
   border-radius: 50%;
   background: var(--secondary-color);
   position: absolute;
@@ -247,7 +248,6 @@ section {
 .radio-wrapper input:checked + label::after {
   content: "";
 }
-
 /* HERO STYLES END */
 
 
@@ -272,7 +272,6 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
-
 .intro p {
   line-height: 1.7;
   color: var(--tertiary-color);
@@ -293,7 +292,6 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid var(--tertiary-color);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
